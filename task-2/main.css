@@ -7,6 +7,7 @@ body {
 }
 
 ul {
+    display: flex;
     max-width: 700px;
     list-style: none;
     padding: 0;
@@ -15,6 +16,8 @@ ul {
 }
 
 li {
+    display: flex;
+    align-items: flex-start;
     background-color: #4D7298;
     border: 2px solid #77A6B6;
     border-radius: .5em;
